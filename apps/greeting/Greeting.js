@@ -7,6 +7,8 @@ import {
   View
 } from 'react-native';
 
+import {styles} from "../style/common";
+
 export class Greeting extends Component {
   render() {
     return (
@@ -26,13 +28,3 @@ export default class Greetings extends Component {
     );
   }
 }
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-});

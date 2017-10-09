@@ -1,5 +1,4 @@
 import { AppRegistry } from 'react-native';
-import App from './App';
-import Greetings from './apps/greeting/Greeting';
+import BlinkApp from "./apps/blink/BlinkApp";
 
-AppRegistry.registerComponent('AwesomeNative', () => Greetings);
+AppRegistry.registerComponent('AwesomeNative', () => BlinkApp);
