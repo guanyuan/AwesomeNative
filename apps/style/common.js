@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-export const styles = StyleSheet.create({
+export const Styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',

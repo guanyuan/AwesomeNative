@@ -7,7 +7,7 @@ import {
   View
 } from 'react-native';
 
-import {styles} from "../style/common";
+import {Styles} from "../style/common";
 
 export class Greeting extends Component {
   render() {
@@ -20,7 +20,7 @@ export class Greeting extends Component {
 export default class Greetings extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={Styles.container}>
         <Greeting name='Rexxar' />
         <Greeting name='Jaina' />
         <Greeting name='Valeera' />

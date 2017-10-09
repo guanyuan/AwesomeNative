@@ -1,4 +1,4 @@
 import { AppRegistry } from 'react-native';
-import BlinkApp from "./apps/blink/BlinkApp";
+import LotsOfStyles from "./apps/styles/LotsOfStyles";
 
-AppRegistry.registerComponent('AwesomeNative', () => BlinkApp);
+AppRegistry.registerComponent('AwesomeNative', () => LotsOfStyles);

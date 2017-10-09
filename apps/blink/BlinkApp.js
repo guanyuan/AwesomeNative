@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { AppRegistry, Text, View } from 'react-native';
-import {styles} from "../style/common";
+import {Styles} from "../style/common";
 
 class Blink extends Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Blink extends Component {
 export default class BlinkApp extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={Styles.container}>
         <Blink text='I love to blink' />
         <Blink text='Yes blinking is so great' />
         <Blink text='Why did they ever take this out of HTML' />
