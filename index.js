@@ -7,5 +7,7 @@ import JustifyContentBasics from './apps/flex/JustifyContentBasics'
 import AlignItemsBasics from './apps/flex/AlignItemsBasics'
 import PizzaTranslator from './apps/text-input/PizzaTranslator'
 import IScrolledDownAndWhatHappenedNextShockedMe from './apps/view/IScrolledDownAndWhatHappenedNextShockedMe'
+import FlatListBasics from './apps/view/FlatListBasics'
+import SectionListBasics from './apps/view/SectionListBasics'
 
-AppRegistry.registerComponent('AwesomeNative', () => IScrolledDownAndWhatHappenedNextShockedMe);
+AppRegistry.registerComponent('AwesomeNative', () => SectionListBasics);

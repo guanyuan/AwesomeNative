@@ -15,6 +15,7 @@ import {
 export const Styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingTop: 22,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
