@@ -1,4 +1,9 @@
 import { AppRegistry } from 'react-native';
-import LotsOfStyles from "./apps/styles/LotsOfStyles";
+import Greeting from './apps/greeting/Greeting'
+import BlinkApp from './apps/blink/BlinkApp'
+import Styles from './apps/styles/LotsOfStyles'
+import FlexDirectionBasics from './apps/flex/FlexDirectionBasics'
+import JustifyContentBasics from './apps/flex/JustifyContentBasics'
+import AlignItemsBasics from './apps/flex/AlignItemsBasics'
 
-AppRegistry.registerComponent('AwesomeNative', () => LotsOfStyles);
+AppRegistry.registerComponent('AwesomeNative', () => AlignItemsBasics);
