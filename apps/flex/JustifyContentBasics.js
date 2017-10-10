@@ -17,4 +17,4 @@ export default class JustifyContentBasics extends Component {
       </View>
     );
   }
-};·
+};
