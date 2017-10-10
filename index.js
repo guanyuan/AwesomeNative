@@ -6,5 +6,6 @@ import FlexDirectionBasics from './apps/flex/FlexDirectionBasics'
 import JustifyContentBasics from './apps/flex/JustifyContentBasics'
 import AlignItemsBasics from './apps/flex/AlignItemsBasics'
 import PizzaTranslator from './apps/text-input/PizzaTranslator'
+import IScrolledDownAndWhatHappenedNextShockedMe from './apps/view/IScrolledDownAndWhatHappenedNextShockedMe'
 
-AppRegistry.registerComponent('AwesomeNative', () => PizzaTranslator);
+AppRegistry.registerComponent('AwesomeNative', () => IScrolledDownAndWhatHappenedNextShockedMe);
