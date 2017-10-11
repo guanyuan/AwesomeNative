@@ -14,6 +14,7 @@ import { TabNavigatorApp } from './apps/navigation/tab/TabNavigatorApp'
 import { TabInStackNavigatorApp } from './apps/navigation/tab/TabInStackNavigatorApp'
 import { NavigationInComponentApp } from './apps/navigation/tab/NavigationInComponentApp'
 import FadeInViewApp from './apps/animate/FadeInViewApp'
+import PressApp from './apps/animate/PressApp'
 
 
-AppRegistry.registerComponent('AwesomeNative', () => FadeInViewApp);
+AppRegistry.registerComponent('AwesomeNative', () => PressApp);
