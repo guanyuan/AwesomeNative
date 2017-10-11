@@ -13,5 +13,7 @@ import { StackNavigatorApp } from './apps/navigation/stack/StackNavigatorApp'
 import { TabNavigatorApp } from './apps/navigation/tab/TabNavigatorApp'
 import { TabInStackNavigatorApp } from './apps/navigation/tab/TabInStackNavigatorApp'
 import { NavigationInComponentApp } from './apps/navigation/tab/NavigationInComponentApp'
+import FadeInViewApp from './apps/animate/FadeInViewApp'
 
-AppRegistry.registerComponent('AwesomeNative', () => NavigationInComponentApp);
+
+AppRegistry.registerComponent('AwesomeNative', () => FadeInViewApp);
