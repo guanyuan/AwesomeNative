@@ -9,6 +9,6 @@ import PizzaTranslator from './apps/text-input/PizzaTranslator'
 import IScrolledDownAndWhatHappenedNextShockedMe from './apps/view/IScrolledDownAndWhatHappenedNextShockedMe'
 import FlatListBasics from './apps/view/FlatListBasics'
 import SectionListBasics from './apps/view/SectionListBasics'
-import { StackNavigatorApp } from './apps/navigation/StackNavigatorApp'
+import { StackNavigatorApp } from './apps/navigation/stack/StackNavigatorApp'
 
 AppRegistry.registerComponent('AwesomeNative', () => StackNavigatorApp);
