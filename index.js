@@ -11,5 +11,6 @@ import FlatListBasics from './apps/view/FlatListBasics'
 import SectionListBasics from './apps/view/SectionListBasics'
 import { StackNavigatorApp } from './apps/navigation/stack/StackNavigatorApp'
 import { TabNavigatorApp } from './apps/navigation/tab/TabNavigatorApp'
+import { TabInStackNavigatorApp } from './apps/navigation/tab/TabInStackNavigatorApp'
 
-AppRegistry.registerComponent('AwesomeNative', () => TabNavigatorApp);
+AppRegistry.registerComponent('AwesomeNative', () => TabInStackNavigatorApp);
