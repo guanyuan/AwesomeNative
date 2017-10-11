@@ -18,6 +18,7 @@ import PressApp from './apps/animate/PressApp'
 
 //components example
 import AccessibilityInfoExample from './apps/components/AccessibilityInfoExample'
+import ActivityIndicatorExample from './apps/components/ActivityIndicatorExample'
 
 
-AppRegistry.registerComponent('AwesomeNative', () => AccessibilityInfoExample);
+AppRegistry.registerComponent('AwesomeNative', () => ActivityIndicatorExample);
