@@ -10,5 +10,6 @@ import IScrolledDownAndWhatHappenedNextShockedMe from './apps/view/IScrolledDown
 import FlatListBasics from './apps/view/FlatListBasics'
 import SectionListBasics from './apps/view/SectionListBasics'
 import { StackNavigatorApp } from './apps/navigation/stack/StackNavigatorApp'
+import { TabNavigatorApp } from './apps/navigation/tab/TabNavigatorApp'
 
-AppRegistry.registerComponent('AwesomeNative', () => StackNavigatorApp);
+AppRegistry.registerComponent('AwesomeNative', () => TabNavigatorApp);

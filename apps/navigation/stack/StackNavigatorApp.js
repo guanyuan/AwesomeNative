@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-import { View, Text, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import MainScreen from './MainScreen';
 import ProfileScreen from './ProfileScreen';
