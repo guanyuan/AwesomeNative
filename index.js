@@ -12,5 +12,6 @@ import SectionListBasics from './apps/view/SectionListBasics'
 import { StackNavigatorApp } from './apps/navigation/stack/StackNavigatorApp'
 import { TabNavigatorApp } from './apps/navigation/tab/TabNavigatorApp'
 import { TabInStackNavigatorApp } from './apps/navigation/tab/TabInStackNavigatorApp'
+import { NavigationInComponentApp } from './apps/navigation/tab/NavigationInComponentApp'
 
-AppRegistry.registerComponent('AwesomeNative', () => TabInStackNavigatorApp);
+AppRegistry.registerComponent('AwesomeNative', () => NavigationInComponentApp);
