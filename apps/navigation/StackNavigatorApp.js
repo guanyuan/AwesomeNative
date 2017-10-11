@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button } from 'react-native';
+import { View, Text, Button } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 
 class MainScreen extends React.Component {
@@ -12,7 +12,7 @@ class MainScreen extends React.Component {
       <Button
         title="Go to Jane's profile"
         onPress={() =>
-          navigate('Profile')
+          navigate('Profile', {user: 'Jane'})
         }
       />
     );
@@ -20,18 +20,17 @@ class MainScreen extends React.Component {
 }
 
 class ProfileScreen extends React.Component {
-  static navigationOptions = {
-    title: 'profile view',
-  };
+  static navigationOptions = ({ navigation }) => ({
+    title: `profile of ${navigation.state.params.user}`,
+  });
+
   render() {
-    const { navigate } = this.props.navigation;
+    const { params } = this.props.navigation.state;
     return (
-      <Button
-        title="Go to Main view"
-        onPress={() =>
-          navigate('Main')
-        }
-      />
+      <View>
+        <Text>Profile detail of {params.user}</Text>
+      </View>
+
     );
   }
 }
