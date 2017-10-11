@@ -16,5 +16,8 @@ import { NavigationInComponentApp } from './apps/navigation/tab/NavigationInComp
 import FadeInViewApp from './apps/animate/FadeInViewApp'
 import PressApp from './apps/animate/PressApp'
 
+//components example
+import AccessibilityInfoExample from './apps/components/AccessibilityInfoExample'
 
-AppRegistry.registerComponent('AwesomeNative', () => PressApp);
+
+AppRegistry.registerComponent('AwesomeNative', () => AccessibilityInfoExample);
