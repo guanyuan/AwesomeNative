@@ -21,6 +21,6 @@ import AccessibilityInfoExample from './apps/components/AccessibilityInfoExample
 import ActivityIndicatorExample from './apps/components/ActivityIndicatorExample'
 import ButtonExample from './apps/components/ButtonExample'
 import DatePickerIOSExample from './apps/components/DatePickerIOSExample'
+import FlatListExample from './apps/components/FlatListExample'
 
-
-AppRegistry.registerComponent('AwesomeNative', () => DatePickerIOSExample);
+AppRegistry.registerComponent('AwesomeNative', () => FlatListExample);
