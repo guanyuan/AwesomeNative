@@ -20,6 +20,7 @@ import PressApp from './apps/animate/PressApp'
 import AccessibilityInfoExample from './apps/components/AccessibilityInfoExample'
 import ActivityIndicatorExample from './apps/components/ActivityIndicatorExample'
 import ButtonExample from './apps/components/ButtonExample'
+import DatePickerIOSExample from './apps/components/DatePickerIOSExample'
 
 
-AppRegistry.registerComponent('AwesomeNative', () => ButtonExample);
+AppRegistry.registerComponent('AwesomeNative', () => DatePickerIOSExample);
