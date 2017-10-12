@@ -22,5 +22,6 @@ import ActivityIndicatorExample from './apps/components/ActivityIndicatorExample
 import ButtonExample from './apps/components/ButtonExample'
 import DatePickerIOSExample from './apps/components/DatePickerIOSExample'
 import FlatListExample from './apps/components/FlatListExample'
+import ImageExample from './apps/components/image/ImageExample'
 
-AppRegistry.registerComponent('AwesomeNative', () => FlatListExample);
+AppRegistry.registerComponent('AwesomeNative', () => ImageExample);
