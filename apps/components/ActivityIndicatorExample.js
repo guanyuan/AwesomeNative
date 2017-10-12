@@ -3,7 +3,6 @@ import {
   ActivityIndicator,
   StyleSheet,
   View,} from 'react-native';
-import TimerMixin from 'react-timer-mixin';
 
 export default class ActivityIndicatorExample extends React.Component {
   state = {
